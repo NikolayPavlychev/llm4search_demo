@@ -4,7 +4,7 @@ from telebot import types
 
 url = 'http://0.0.0.0:8002/api/v1/igla-chat/ask/'
 headers = {'content-type': 'application/json', 'accept': 'application/json'}
-aa_bot = telebot.TeleBot('6905691709:AAGReuANqGSUJyw5IkRa2Vq7d3O9_3sPnZE')
+aa_bot = telebot.TeleBot('')
 
 @aa_bot.message_handler(commands=['start'])
 def startBot(message):
